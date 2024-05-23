@@ -17,7 +17,10 @@ const sum = function(array) {
 };
 
 const multiply = function(array) {
-
+  let result = 0;
+for (let arr of array){
+  result *= arr;
+}
 };
 
 const power = function(num1, num2) {
